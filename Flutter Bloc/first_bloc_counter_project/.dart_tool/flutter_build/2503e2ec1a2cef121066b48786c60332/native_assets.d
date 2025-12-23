@@ -1,0 +1,1 @@
+ D:\\Flutter\ Leanings\\Flutter\ Bloc\\first_bloc_counter_project\\.dart_tool\\flutter_build\\2503e2ec1a2cef121066b48786c60332\\native_assets.yaml: 
