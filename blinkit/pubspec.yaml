@@ -1,0 +1,39 @@
+name: blinkit
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_text_kit: ^4.2.2
+  carousel_slider: ^5.0.0
+  smooth_page_indicator: ^1.2.0
+  # Pin to 10.7.0 to avoid using newer Color.withValues/a APIs
+  font_awesome_flutter: 10.7.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+      - assets/banner_img.png
+      - assets/promo1.png
+      - assets/promo2.png
+      - assets/promo3.png
+      - assets/products/dairy_products.png
+      - assets/products/drinks_juice.png
+      - assets/products/fruit_veggies.png
+      - assets/products/pan_corner.png
+      - assets/products/breakfast_food.png
+      - assets/products/sweet_tooth.png
+      - assets/products/bakery_biscuit.png
+      - assets/burger.jpeg
