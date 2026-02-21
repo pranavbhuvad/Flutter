@@ -42,10 +42,10 @@ class _WebHomeState extends State<WebHome> {
           SliverAppBar(
             pinned: true,
             backgroundColor: Colors.white,
-            expandedHeight: 80,
-            flexibleSpace: FlexibleSpaceBar(
-              background: _navbar(contentWidth),
-            ),
+            // expandedHeight: 80,
+            elevation: 1,
+            titleSpacing: 0,
+            title: _navbar(contentWidth),
           ),
 
           /// ================= BODY =================
